@@ -84,7 +84,7 @@ header .navbar{
 }
 .img-box, .text-content {
   width: 50%;
-  margin-left: 70%;
+  margin-left: 10%;
 }
 .title {
   font-family: 'Kaushan Script', sans-serif;
@@ -107,7 +107,6 @@ header .navbar{
   margin-top: 10px;
 }
 .img-box{
-  visibility: hidden;
   max-width: 360px;
   border-radius: 50%;
   border: 10px solid rgba(255,255,255, 0.25);
@@ -140,7 +139,6 @@ header .navbar{
     margin-left: 10%;
   }
   .img-box{
-    visibility: visible;
     max-width: 360px;
     border-radius: 50%;
     border: 10px solid rgba(255,255,255, 0.25);
@@ -168,7 +166,6 @@ header .navbar{
     margin-left: 10%;
   }
   .img-box{
-    visibility: visible;
     max-width: 360px;
     border-radius: 50%;
     border: 10px solid rgba(255,255,255, 0.25);
