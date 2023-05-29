@@ -20,7 +20,7 @@ func (imprint *imprint) Render() app.UI {
 								app.Text("Angaben gemäß § 5 TMG"),
 								app.Br(),
 								app.Br(),
-								app.Strong().Text("StudyBear"),
+								app.H1().Text("StudyBear"),
 								app.Br(),
 								app.H3().Text("Betreiber der Website:"),
 								app.P().Text("André Karrlein"),
