@@ -19,16 +19,12 @@ func (privacy *privacy) Render() app.UI {
 			app.Div().Class("container").Body(
 				app.Div().Class("row").Body(
 					app.Div().Class("resume").Body(
-						app.H2().Class("title").Text("Klima"),
-						app.Range(data).Slice(func(i int) app.UI {
-							return app.Div().Class("").Body(
-								app.P().Body(
-									app.Strong().Text(data[i].heading),
-									app.Br(),
-									app.Text(data[i].content),
-								),
-							)
-						}),
+						app.H2().Class("title").Text("Datenschutz"),
+						app.P().Body(
+							app.Strong().Text(""),
+							app.Br(),
+							app.Text(""),
+						),
 					),
 				),
 			),
