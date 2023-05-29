@@ -8,7 +8,7 @@
   transition: all 0.3s ease;
 }
 .body{
-  height: 100vh;;
+  height: 100vh;
   width: 100%;
   display: flex;
   background-image: linear-gradient( 135deg, #AF52DE  10%, rgba(184,0,92,0.870) 100%);
