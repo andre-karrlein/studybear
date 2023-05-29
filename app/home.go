@@ -21,7 +21,7 @@ func (home *home) Render() app.UI {
 						app.Br(),
 						app.Br(),
 						app.H2().Text("Bald verfügbar!"),
-						//app.Raw("<a href='https://apps.apple.com/de/app/kreativroni/id1601515699?itsct=apps_box_badge&amp;itscg=30200' style='display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;'><img src='https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/de-de?size=250x83&amp;releaseDate=1643673600' alt='Download on the App Store' style='border-radius: 13px; width: 250px; height: 83px;'></a>"),
+						//app.Raw("<a href='https://apps.apple.com/de/app/studybear/id6449251194?itsct=apps_box_badge&amp;itscg=30200' style='display: inline-block; overflow: hidden; border-radius: 13px; width: 250px; height: 83px;'><img src='https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/de-de?size=250x83&amp;releaseDate=1643673600' alt='Download on the App Store' style='border-radius: 13px; width: 250px; height: 83px;'></a>"),
 					),
 					app.Div().Class("img-box").Body(
 						app.Img().Src("/web/images/logo.jpeg"),
