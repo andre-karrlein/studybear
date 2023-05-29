@@ -1,18 +1,14 @@
 package main
 
 import (
-	"fmt"
-
 	"github.com/maxence-charriere/go-app/v9/pkg/app"
 )
 
-type climate struct {
+type privacy struct {
 	app.Compo
 }
 
 func (privacy *privacy) Render() app.UI {
-	data := getClimateData()
-
 	return app.Div().Class("body").Body(
 		app.Header().Body(
 			&navbar{},
