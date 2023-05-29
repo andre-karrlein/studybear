@@ -1,0 +1,28 @@
+name: Upload Website
+
+on:
+  push:
+    branches:
+    - master
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - uses: actions/setup-go@v3
+      with:
+        go-version: '^1.17'
+
+    - name: Build wasm file
+      run: GOARCH=wasm GOOS=js go build -o build/web/app.wasm ./app
+
+    - name: Build app file
+      run: go build -o build/app ./app
+
+    - name: Generate Website
+      run: cd build && ./app && rm ./app
+
+ 
