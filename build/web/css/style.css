@@ -58,14 +58,14 @@ header .navbar{
   margin: 0 6px;
 }
 .navbar .menu a{
-  color: #000;
+  color: color(srgb 0.7999 0.8 0.8001);;
   text-decoration: none;
   font-size: 17px;
   font-weight: 500;
   transition: all 0.3s ease;
 }
 .navbar .menu a:hover{
-  color: #f2f2f2;
+  color: #AF52DE;
 }
  header .text-content{
    width: 40%;
