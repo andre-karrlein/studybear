@@ -16,8 +16,8 @@ func (home *home) Render() app.UI {
 				app.Div().Class("row").Body(
 					app.Div().Class("text-content").Body(
 						app.H2().Class("title").Text("StudyBear"),
-						app.P().Text("Holen Sie sich bessere Noten mit unserer Lern-App."),
-						app.P().Text("Unsere Lern-App ist die perfekte Lösung für Schüler, die ihr Wissen in verschiedenen Fächern erweitern möchten. Mit einer Vielzahl von Übungsaufgaben können Schüler ihre Leistungen verbessern."),
+						app.P().Text("Holen dir bessere Noten mit unserer Lern-App StudyBear."),
+						app.P().Text("Unsere Lern-App ist die perfekte Lösung für Schüler, die ihr Wissen in verschiedenen Fächern erweitern möchten. Mit einer Vielzahl von Übungsaufgaben kannst du deine Leistungen verbessern."),
 						app.Br(),
 						app.Br(),
 						app.H2().Text("Bald verfügbar!"),
