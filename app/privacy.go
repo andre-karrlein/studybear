@@ -21,7 +21,7 @@ func (privacy *privacy) Render() app.UI {
 							app.P().Text("Wir freuen uns über Ihr Interesse an unserer Website und unserer App. Der Schutz Ihrer persönlichen Daten ist uns ein wichtiges Anliegen. Nachfolgend informieren wir Sie ausführlich über den Umgang mit Ihren Daten."),
 							app.Br(),
 							app.H3().Text("1. Verantwortliche Stelle"),
-							app.P().Text("Verantwortlich für die Verarbeitung Ihrer personenbezogenen Daten im Sinne der Datenschutz-Grundverordnung (DSGVO) ist StudyBear, Tittmoninger Str. 2, 83410 Laufen, Deutschland, info@study-bear.de."),
+							app.P().Text("Verantwortlich für die Verarbeitung Ihrer personenbezogenen Daten im Sinne der Datenschutz-Grundverordnung (DSGVO) ist StudyBear - Andre Karrlein, Münchener Str. 25f, 83395 Freilassing, Deutschland, info@study-bear.de."),
 							app.Br(),
 							app.H3().Text("2. Erhebung, Verarbeitung und Nutzung personenbezogener Daten"),
 							app.Br(),
