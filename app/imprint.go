@@ -31,7 +31,7 @@ func (imprint *imprint) Render() app.UI {
 								app.Br(),
 								app.H3().Text("Kontakt:"),
 								app.P().Text("Email: info@study-bear.de"),
-								app.P().Text("Internet: study-bear.de"),
+								app.P().Text("Internet: www.study-bear.de"),
 							),
 					),
 				),
